@@ -178,11 +178,168 @@ public class PI_Corrigido {
 
 ---
 
-## ⚠️ Erros comuns
-- Usar `=` em vez de `==`.  
-- Não validar entradas.  
+# 📘Projeto Integrador em Java
+
+Cada atividade tem seu **enunciado**, **explicação** e **código em Java** pronto para ser executado.  
 
 ---
+
+## ✅ Atividade 1 — Polígono Regular
+**Enunciado:**  
+Ler o número de lados (**NumLados**) e a medida do lado (**MedLado**).  
+- 3 lados → TRIÂNGULO → calcular área (Teorema de Heron)  
+- 4 lados → QUADRADO → área = lado²  
+- 5 lados → PENTÁGONO → calcular área (usar fórmula)  
+- < 3 → NÃO É POLÍGONO  
+- > 5 → POLÍGONO NÃO IDENTIFICADO  
+
+### Código em Java
+```java
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Atividade1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite o número de lados: ");
+        int n = sc.nextInt();
+        System.out.print("Digite a medida do lado: ");
+        double lado = sc.nextDouble();
+
+        if (n < 3) {
+            System.out.println("Não é um polígono");
+        } else if (n == 3) {
+            // Teorema de Heron (supondo triângulo equilátero)
+            double a = lado, b = lado, c = lado;
+            double s = (a+b+c)/2;
+            double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+            System.out.println("TRIÂNGULO - Área: " + area);
+        } else if (n == 4) {
+            System.out.println("QUADRADO - Área: " + (lado*lado));
+        } else if (n == 5) {
+            // Fórmula do pentágono regular
+            double area = (5 * lado * lado) / (4 * Math.tan(Math.PI/5));
+            System.out.println("PENTÁGONO - Área: " + area);
+        } else {
+            System.out.println("Polígono não identificado");
+        }
+        sc.close();
+    }
+}
+```
+
+---
+
+## ✅ Atividade 2 — Maior entre 3 números
+**Enunciado:**  
+Ler 3 inteiros positivos e imprimir o maior.  
+
+### Código em Java
+```java
+import java.util.Scanner;
+
+public class Atividade2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.print("Digite o primeiro número: ");
+        a = sc.nextInt();
+        System.out.print("Digite o segundo número: ");
+        b = sc.nextInt();
+        System.out.print("Digite o terceiro número: ");
+        c = sc.nextInt();
+
+        if (a > b && a > c) {
+            System.out.println("Maior: " + a);
+        } else if (b > a && b > c) {
+            System.out.println("Maior: " + b);
+        } else {
+            System.out.println("Maior: " + c);
+        }
+        sc.close();
+    }
+}
+```
+
+---
+
+## ✅ Atividade 3 — Classificação de Triângulo
+**Enunciado:**  
+Ler os lados A, B e C, verificar se é triângulo e classificar:  
+- Equilátero  
+- Isósceles  
+- Escaleno  
+
+### Código em Java
+```java
+import java.util.Scanner;
+
+public class Atividade3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a, b, c;
+        System.out.print("Digite o lado A: ");
+        a = sc.nextDouble();
+        System.out.print("Digite o lado B: ");
+        b = sc.nextDouble();
+        System.out.print("Digite o lado C: ");
+        c = sc.nextDouble();
+
+        if (a >= b + c || b >= a + c || c >= a + b) {
+            System.out.println("Não é um triângulo");
+        } else if (a == b && b == c) {
+            System.out.println("Equilátero");
+        } else if (a == b || a == c || b == c) {
+            System.out.println("Isósceles");
+        } else {
+            System.out.println("Escaleno");
+        }
+        sc.close();
+    }
+}
+```
+
+---
+
+## ✅ Atividade 4 — GitHub
+**Enunciado:**  
+Criar uma conta no **GitHub** e hospedar os códigos das atividades em um repositório.  
+
+### Dica:
+1. Criar conta em [https://github.com](https://github.com)  
+2. Criar um repositório chamado `ProjetoIntegradorJava`  
+3. Subir os arquivos `.java` das atividades  
+
+---
+
+## ✅ Atividade 5 — Projeto Integrador
+**Enunciado:**  
+Apresentar o **Título** e a **Descrição** do Projeto Integrador.  
+
+### Exemplo:  
+- **Título:** Sistema de Gerenciamento de Alunos  
+- **Descrição:** Projeto em Java para cálculo de notas, verificação de faltas e classificação de alunos (aprovado, recuperação, exame, reprovado).  
+
+---
+
+## ⚠️ Observações importantes
+- Usar `==` para comparar valores e `=` para atribuir.  
+- Validar entradas (não aceitar números negativos quando não fizer sentido).  
+- Testar valores de fronteira (ex: média = 3.0, 5.0, 6.0).  
+- Sempre fechar o `Scanner` no final com `sc.close();`.  
+
+---
+
+## ✅ Conclusão
+Com estas atividades, você pratica:  
+- Estruturas condicionais (`if`, `else if`, `else`)  
+- Operadores relacionais e lógicos  
+- Cálculo de áreas e comparação de números  
+- Boas práticas em Java  
+
+🚀 Agora é só rodar os códigos, testar e depois subir tudo no GitHub!  
+
+
 
 ## ✅ Conclusão
 Esse material foi feito com carinho pra você    
