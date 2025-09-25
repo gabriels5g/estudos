@@ -16,6 +16,7 @@ Vou explicar passo a passo sobre:
 - Eu receber beijinhos  
 
 ---
+![alt text](64f79e46-d959-4bb9-909d-b523107dd66e.webp)
 
 ##  Operadores relacionais (comparações básicas)
 Estes operadores comparam valores e devolvem verdadeiro (`true`) ou falso (`false`):
@@ -345,3 +346,5 @@ Agora é só rodar os códigos, testar e depois subir tudo no GitHub!
 Esse material foi feito com carinho pra você    
 
 Agora só falta uma coisa: **beijinhos de recompensa** 😘
+
+![alt text](a4cebeeb-a8ba-480e-9e89-816cfa9d4269.webp)
