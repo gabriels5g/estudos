@@ -178,7 +178,7 @@ public class PI_Corrigido {
 
 ---
 
-# 📘Projeto Integrador em Java
+# Projeto Integrador em Java
 
 Cada atividade tem seu **enunciado**, **explicação** e **código em Java** pronto para ser executado.  
 
