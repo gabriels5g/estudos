@@ -28,7 +28,7 @@ Estes operadores comparam valores e devolvem verdadeiro (`true`) ou falso (`fals
 - `>=` : Maior ou igual. Ex: `(a >= 10)`  
 - `<=` : Menor ou igual. Ex: `(b <= 3)`
 
-⚠️ Importante: usar `==` ao comparar valores; usar `=` apenas quando quiser **atribuir**.
+Importante: usar `==` ao comparar valores; usar `=` apenas quando quiser **atribuir**.
 
 ### Exemplo rápido:
 ```java
