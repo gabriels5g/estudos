@@ -1,4 +1,4 @@
-# 📘 Operadores Lógicos e Decisões em Java — Bibi ❤️
+#  Operadores Lógicos e Decisões em Java — Bibi ❤️
 
 ## Introdução
 Material para o meu amor que faltou na aula 💕  
@@ -10,14 +10,14 @@ Vou explicar passo a passo sobre:
 
 ---
 
-## 🎯 Objetivos do documento
+##  Objetivos do documento
 - Entender o que são operadores lógicos e relacionais.  
 - Ela não se matar no dia da prova  
 - Eu receber beijinhos  
 
 ---
 
-## 🔹 Operadores relacionais (comparações básicas)
+##  Operadores relacionais (comparações básicas)
 Estes operadores comparam valores e devolvem verdadeiro (`true`) ou falso (`false`):
 
 - `=`  : Atribuição (usado para definir o valor de uma variável). Ex: `x = 5;`  
@@ -44,7 +44,7 @@ if (x == y) {
 
 ---
 
-## 🔹 Operadores lógicos (juntando condições)
+##  Operadores lógicos (juntando condições)
 Operadores lógicos permitem combinar várias condições (por exemplo dentro de um `if`):
 
 - `&&` : **E lógico** — todas as condições precisam ser verdadeiras.  
@@ -71,7 +71,7 @@ if (!(idade < 18)) {
 
 ---
 
-## 🔹 Identificando Triângulos
+##  Identificando Triângulos
 Para identificar o tipo de triângulo usamos comparações entre os lados `A`, `B` e `C`.  
 Antes de classificar, sempre verifique se é válido: **nenhum lado pode ser maior ou igual à soma dos outros dois**.
 
@@ -103,7 +103,7 @@ public class Classe1 {
 
 ---
 
-## 🔹 PI — Regras de aprovação (média e faltas)
+##  PI — Regras de aprovação (média e faltas)
 Foi pedido para calcular a **média geométrica**, mas normalmente usamos a **aritmética**.  
 
 - Média aritmética: `(n1 + n2) / 2`  
@@ -165,7 +165,7 @@ public class PI_Corrigido {
 
 ---
 
-## 📚 Atividades
+## Atividades
 1. Polígonos:  
    - 3 lados → Triângulo (usar Teorema de Heron).  
    - 4 lados → Quadrado (área = lado²).  
@@ -184,7 +184,7 @@ Cada atividade tem seu **enunciado**, **explicação** e **código em Java** pro
 
 ---
 
-## ✅ Atividade 1 — Polígono Regular
+## Atividade 1 — Polígono Regular
 **Enunciado:**  
 Ler o número de lados (**NumLados**) e a medida do lado (**MedLado**).  
 - 3 lados → TRIÂNGULO → calcular área (Teorema de Heron)  
@@ -230,7 +230,7 @@ public class Atividade1 {
 
 ---
 
-## ✅ Atividade 2 — Maior entre 3 números
+## Atividade 2 — Maior entre 3 números
 **Enunciado:**  
 Ler 3 inteiros positivos e imprimir o maior.  
 
@@ -263,7 +263,7 @@ public class Atividade2 {
 
 ---
 
-## ✅ Atividade 3 — Classificação de Triângulo
+## Atividade 3 — Classificação de Triângulo
 **Enunciado:**  
 Ler os lados A, B e C, verificar se é triângulo e classificar:  
 - Equilátero  
@@ -301,7 +301,7 @@ public class Atividade3 {
 
 ---
 
-## ✅ Atividade 4 — GitHub
+## Atividade 4 — GitHub
 **Enunciado:**  
 Criar uma conta no **GitHub** e hospedar os códigos das atividades em um repositório.  
 
@@ -312,7 +312,7 @@ Criar uma conta no **GitHub** e hospedar os códigos das atividades em um reposi
 
 ---
 
-## ✅ Atividade 5 — Projeto Integrador
+## Atividade 5 — Projeto Integrador
 **Enunciado:**  
 Apresentar o **Título** e a **Descrição** do Projeto Integrador.  
 
@@ -322,7 +322,7 @@ Apresentar o **Título** e a **Descrição** do Projeto Integrador.
 
 ---
 
-## ⚠️ Observações importantes
+##  Observações importantes
 - Usar `==` para comparar valores e `=` para atribuir.  
 - Validar entradas (não aceitar números negativos quando não fizer sentido).  
 - Testar valores de fronteira (ex: média = 3.0, 5.0, 6.0).  
@@ -330,14 +330,14 @@ Apresentar o **Título** e a **Descrição** do Projeto Integrador.
 
 ---
 
-## ✅ Conclusão
+## Conclusão
 Com estas atividades, você pratica:  
 - Estruturas condicionais (`if`, `else if`, `else`)  
 - Operadores relacionais e lógicos  
 - Cálculo de áreas e comparação de números  
 - Boas práticas em Java  
 
-🚀 Agora é só rodar os códigos, testar e depois subir tudo no GitHub!  
+Agora é só rodar os códigos, testar e depois subir tudo no GitHub!  
 
 
 
