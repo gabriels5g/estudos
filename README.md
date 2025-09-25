@@ -136,7 +136,7 @@ public class PI_Corrigido {
     }
 
     double mediaArit = (n1 + n2) / 2.0;
-    // double mediaGeo = Math.sqrt(n1 * n2);
+   
 
     String situacao;
     if (faltas > 20) {
@@ -209,7 +209,7 @@ public class Atividade1 {
         if (n < 3) {
             System.out.println("Não é um polígono");
         } else if (n == 3) {
-            // Teorema de Heron (supondo triângulo equilátero)
+            
             double a = lado, b = lado, c = lado;
             double s = (a+b+c)/2;
             double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
@@ -217,7 +217,7 @@ public class Atividade1 {
         } else if (n == 4) {
             System.out.println("QUADRADO - Área: " + (lado*lado));
         } else if (n == 5) {
-            // Fórmula do pentágono regular
+            
             double area = (5 * lado * lado) / (4 * Math.tan(Math.PI/5));
             System.out.println("PENTÁGONO - Área: " + area);
         } else {
