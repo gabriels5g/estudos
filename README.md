@@ -7,7 +7,6 @@ Vou explicar passo a passo sobre:
 - Como usar if/else em Java
 - Exemplos práticos (triângulos, média/notas)
 
-Explicação simples, com exemplos e fluxogramas.
 
 ---
 
@@ -74,7 +73,7 @@ if (!(idade < 18)) {
 
 ## 🔹 Identificando Triângulos
 Para identificar o tipo de triângulo usamos comparações entre os lados `A`, `B` e `C`.  
-Antes de classificar, sempre verifique se é válido: **nenhum lado pode ser ≥ à soma dos outros dois**.
+Antes de classificar, sempre verifique se é válido: **nenhum lado pode ser maior ou igual à soma dos outros dois**.
 
 ### Código exemplo:
 ```java
@@ -105,7 +104,7 @@ public class Classe1 {
 ---
 
 ## 🔹 PI — Regras de aprovação (média e faltas)
-No PDF foi pedido para calcular a **média geométrica**, mas normalmente usamos a **aritmética**.  
+Foi pedido para calcular a **média geométrica**, mas normalmente usamos a **aritmética**.  
 
 - Média aritmética: `(n1 + n2) / 2`  
 - Média geométrica: `Math.sqrt(n1 * n2)`  
@@ -159,7 +158,7 @@ public class PI_Corrigido {
 }
 ```
 
-### Por que corrigimos assim?
+### Explição ai:
 - ✔️ Validação de entradas (evita notas negativas).  
 - ✔️ Ordem das condições (faltas primeiro).  
 - ✔️ Uso correto de intervalos (`>=` e `<`).  
@@ -182,14 +181,10 @@ public class PI_Corrigido {
 ## ⚠️ Erros comuns
 - Usar `=` em vez de `==`.  
 - Não validar entradas.  
-- Errar limites (3.0, 5.0, 6.0).  
-- Não fechar `Scanner`.  
-- Não testar casos de borda.  
 
 ---
 
 ## ✅ Conclusão
-Esse material foi feito com carinho pra você ❤️  
-Com ele, você tem passo a passo, exemplos de código e dicas para se dar bem.  
+Esse material foi feito com carinho pra você    
 
 Agora só falta uma coisa: **beijinhos de recompensa** 😘
