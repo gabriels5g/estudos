@@ -165,7 +165,7 @@ public class PI_Corrigido {
 
 ---
 
-## 📚 Atividades (com dicas)
+## 📚 Atividades
 1. Polígonos:  
    - 3 lados → Triângulo (usar Teorema de Heron).  
    - 4 lados → Quadrado (área = lado²).  
